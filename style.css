@@ -1,0 +1,221 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e6f4e6;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: #163153;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-btn:hover {
+    background-color: #3d52ca;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.news-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h2 {
+    margin: 15px 20px 10px;
+}
+
+.news-item p {
+    margin: 0 20px 20px;
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: #444;
+}
+
+.pagination {
+    text-align: center;
+    padding: 20px;
+}
+
+.next-page-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-page-btn:hover {
+    background-color: #218838;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.voltar {
+    display: block;
+    margin-top: 20px;
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+.login-links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-links p {
+    margin-top: 10px;
+}
+
+.cadastro-link {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro-link:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px 25px;
+    background-color: #e6f2e6;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 100, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #135214; 
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #2a4d14;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="email"],
+  .login-container input[type="date"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1.8px solid #3a703a;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-container input[type="text"]:focus,
+  .login-container input[type="email"]:focus,
+  .login-container input[type="date"]:focus,
+  .login-container input[type="password"]:focus {
+    border-color: #1a3d0a;
+    outline: none;
+  }
+  
+  .login-container button.login-btn {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button.login-btn:hover {
+    background-color: #255d27;
+  }
+  
+  .cadastro-link {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .cadastro-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 450px) {
+    .login-container {
+      margin: 40px 15px;
+      padding: 25px 15px;
+    }
+  }
+  
